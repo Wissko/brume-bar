@@ -16,8 +16,8 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Brume — Bar à cocktails parisien',
-  description: 'Une expérience immersive de cocktails d\'exception au cœur de Paris.',
+  title: 'Axion Electric Pre — Pre-Workout',
+  description: 'Experience the electric edge. 200mg Caffeine · 4g Citrulline.',
 }
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <body className={`${cormorant.variable} ${dmSans.variable}`}>
         {children}
       </body>

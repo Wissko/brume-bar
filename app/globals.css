@@ -1,2 +1,23 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html, body { background: #0A0804; color: #F2EDE4; overflow: hidden; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #0a0804;
+  color: #f2ede4;
+  overflow-x: hidden;
+  font-family: var(--font-dm-sans), sans-serif;
+  font-weight: 300;
+}
+
+:root {
+  --font-cormorant: '';
+  --font-dm-sans: '';
+}
